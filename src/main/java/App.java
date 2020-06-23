@@ -1,5 +1,7 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("hello World");
+        final AsciidoctorDemo asciidoctorDemo = new AsciidoctorDemo();
+       // asciidoctorDemo.genratePdfFromString("");
+        System.out.println(asciidoctorDemo.generateHTMLFromString("hi"));
     }
 }
